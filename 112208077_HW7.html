@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Profile</title>
+  <link rel="stylesheet" type = "text/css" href="112208077_HW7.css">
+</head>
+<body>
+  <div class="main-container">
+    <!-- Left Panel -->
+    <div class="left-panel">
+      <div class="photo-panel"></div>
+      <div class="text-content">
+        <div class="name">
+          <h2>Chiu Chen Lyu</h2>
+          <button id="editNameBtn">edit</button>
+        </div>
+        <h3>ABOUT ME</h3>
+        <p>
+          I am a sophomore in the Department of Economics at National Chengchi University. I am very interested in studying programming and computer science fundamentals. I have experience in writing Java, HTML, CSS, JavaScript, and Python.
+        </p>
+        <h3>CONTACT</h3>
+        <a class="email" href="mailto:112208077@nccu.edu.tw">112208077@nccu.edu.tw</a>
+        <img class="nccu-icon" src="pic/logo.jpg" alt="NCCU Icon">
+      </div>
+    </div>
+
+    <!-- Right Panel -->
+    <div class="right-panel">
+      <section>
+        <h2>Education</h2>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span class="year">2023 - now</span>
+            <span class="description">National Chengchi University, Department of Economics</span>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2021 - 2023</span>
+            <span class="description">High School of National Taiwan Normal University<br>
+            Participated in mass communication club</span>
+          </div>
+          <div class="timeline-item">
+            <span class="year">2018 - 2021</span>
+            <span class="description">Middle School Graduation<br>
+              Started developing an interest in computer science</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Homework List</h2>
+        <div class="homework-list">
+          <p><span>HW1 -</span><a href="https://github.com/chiuuu123/HW1.git">https://github.com/chiuuu123/HW1.git</a></p>
+          <p><span>HW2 -</span><a href="https://github.com/chiuuu123/HW2.git">https://github.com/chiuuu123/HW2.git</a></p>
+          <p><span>HW3 -</span><a href="https://github.com/chiuuu123/HW3.git">https://github.com/chiuuu123/HW3.git</a></p>
+          <p><span>HW4 -</span><a href="https://github.com/chiuuu123/HW4.git">https://github.com/chiuuu123/HW4.git</a></p>
+          <p><span>HW5 -</span><a href="https://github.com/chiuuu123/HW5.git">https://github.com/chiuuu123/HW5.git</a></p>
+        </div>
+      </section>
+
+      <section>
+        <h2>Favorite Music</h2>
+        <div class="music-gallery">
+          <a href="https://youtu.be/d5bbqKYu51w?si=4823RuU7VL1kxhnk">
+            <img src="pic/song.jpg" alt="0X1=LOVESONG">
+            <span>0X1= LOVESONG</span>
+          </a>
+          <a href="https://youtu.be/phT2MJAn1KY?si=y4PhFuQ9TwGhGvo6">
+            <img src="pic/song2.jpg" alt="Thursday's Child Has Far To Go">
+            <span>Thursday's Child Has Far To Go</span>
+          </a>
+          <a href="https://youtu.be/CJT7WMSzVMA?si=wvCHBi-5B2ZKVLoX">
+            <img src="pic/song2.jpg" alt="Dear Sputnik">
+            <span>Dear Sputnik</span>
+          </a>
+          <a href="https://youtu.be/p24jpQrMh98?si=e2l3ekis5tuSTRk2">
+            <img src="pic/song3.jpg" alt="Miracle">
+            <span>Miracle</span>
+          </a>
+        </div>
+        <button id="addMusicBtn">add</button>
+        <div id="musicForm">
+          <input type="text" id="musicLink" placeholder="Music Link">
+          <input type="text" id="musicTitle" placeholder="Music Title">
+          <button id="submitMusicBtn">Submit</button>
+        </div>
+        <p class="note">
+          Note: These songs are some of my favorites by TOMORROW X TOGETHER, with beautiful melodies and meaningful lyrics.
+        </p>
+      </section>
+    </div>
+  </div>
+
+  <script src="HW7.js" charset="utf-8"></script>
+</body>
+</html>
