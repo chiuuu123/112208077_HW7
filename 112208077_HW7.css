@@ -175,10 +175,7 @@ section h2 {
 }
 
 #musicForm {
-  position: fixed;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  width: 300px;
   background-color: lightgrey;
   padding: 15px;
   padding-left: 45px;
